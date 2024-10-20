@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+}
+
+header .logo h1 {
+    font-size: 24px;
+    color: #fff;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.icons img {
+    width: 20px;
+    margin-left: 20px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #fff;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero-text h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.hero img {
+    max-width: 40%;
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+}
+
+.product-card {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.promo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #fff;
+}
+
+.promo img {
+    max-width: 30%;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+}
+
+footer h4 {
+    margin-bottom: 10px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    margin-bottom: 5px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Estilos anteriores... */
+
+.hero {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero img {
+    width: 100%;
+    max-width: 2000px; 
+    height: auto;
+}
+
+button {
+  background-color: rgb(204, 201, 201);
+  border: 0;
+  color: rgb(0, 0, 0);
+  height: 25px;
+  width: 70px;
+  border-radius: 15px;
+}
+
+.quadrado {
+    background-color: #000;
+    color: #f4f4f4;
+    height: 200px;
+    width: 400px;
+    border-radius: 20px;
+    border: 0;
+    margin-left: 100px;
+}
+
+.oi {
+    margin-top: 60px;
+    text-align: center;
+    font-size: 18px;
+}
+
